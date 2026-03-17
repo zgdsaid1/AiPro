@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
-import { useFirebase, useUser as useAuthUser } from '@/firebase/provider';
+import { useFirebase, useAuthUser } from '@/firebase/provider';
 import { doc } from 'firebase/firestore';
 import { useDoc } from '@/firebase/firestore/use-doc';
 import { useMemoFirebase } from '@/firebase/hooks/use-memo-firebase';
